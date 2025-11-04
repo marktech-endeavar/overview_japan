@@ -1,7 +1,7 @@
 import qrcode
 
 # Replace with your PDF's public URL
-pdf_url = "https://github.com/marktech-endeavar/overview_japan/blob/main/MARKTECH%20-%20One%20Pager.pdf"
+pdf_url = "https://raw.githubusercontent.com/marktech-endeavar/overview_japan/main/MARKTECH%20-%20One%20Pager.pdf"
 
 # Generate QR code
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
