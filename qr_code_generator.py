@@ -10,6 +10,6 @@ qr.make(fit=True)
 
 # Create and save the QR code image
 img = qr.make_image(fill_color="black", back_color="white")
-img.save("pdf_qrcode.png")
+img.save("overview_japan_qr_code.png")
 
 print("✅ QR code saved as pdf_qrcode.png")
